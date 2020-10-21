@@ -67,6 +67,10 @@ O Power BI é um serviço de análise de negócios da Microsoft, que tem o de fo
 Além dos dados vindos do arquivo `mpm_serventias.csv` disponibilizado para o Hackathon, temos: 
 
 - **TIP_ENTRANCIA**: cálculo do tipo de entrância. Possíveis valores: 1, 2 e 3.
+    - **Regra do cálculo para varas:** apesar de saber que são utilizados critérios mais complexos para a definição da entrância, utilizamos uma regra objetiva (fonte: https://amorimsanguenovo.jusbrasil.com.br/artigos/224767952/voce-sabe-o-que-e-entrancia) que fosse possível de implementar rapidamente, conforme se segue: 
+        - Varas de comarcas com apenas uma vara é definida entrância 1; 
+        - Varas de comarcas que tenham de duas até quatro varas é definida entrância 2;
+        - Varas de comarcas que tenham mais de quarto.
 - **QTD_ESTAGIARIOS**: indicador "TFAUXE - TOTAL DA FORÇA DE TRABALHO AUXILIAR - ESTAGIÁRIOS" do "Módulo de Produtividade Mensal".
 - **QTD_TERCERIADOS**: indicador "TFAUXT - TOTAL DA FORÇA DE TRABALHO AUXILIAR - TERCEIRIZADOS" do "Módulo de Produtividade Mensal".
 - **QTD_CEDIDOS**: indicador "TPI - TOTAL DE PESSOAL QUE INGRESSOU POR CESSÃO OU REQUISIÇÃO" do "Módulo de Produtividade Mensal".
@@ -80,15 +84,15 @@ Possui a mesma estrutura do arquivo `sgt_classes.csv` disponibilizado para o hac
 
 ### Tabela dIndicadores:
 
-Possui as informações os indicadores usados no BI. Campos:
+Possui a descrição dos indicadores de desempenho usados no BI. Campos:
 
 - **index**: Sequencial da tabela.
 - **codindicadores**: Código identificador do indicador.
-- **indicador**: Descrição do indicador.
-- **condicao_1**: Lista de movimentos iniciais do processo. usados para calcular o período de dias.
-- **condicao_2**: Lista de movimentos finais do processo. Usados para calcular o período de dias.
-- **unico_iterativo**:
-- **observacao**: observação sobre o uso do indicador.
+- **indicador**: Título do indicador.
+- **condicao_1**: Lista dos códigos nacionais dos movimentos que marcam o início do período de dias calculado no indicador.
+- **condicao_2**: Lista dos códigos nacionais dos movimentos que marcam o fim do período de dias calculado no indicador.
+- **unico_iterativo**: Indica se o indicador é calculado apenas uma vez em um processo ou se ele é iterativo. (por exemplo, se for criado um indicador que calcula o tempo médio entre o momento que o processo é colocado para concluso e o ato do magistrado, ele pode ser iterativo, ou seja, acontece várias vezes na vida do processo)
+- **observacao**: Descrição e observação relacionados ao indicador.
 
 ### Tabela fDesenpenho:
 
