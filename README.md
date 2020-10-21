@@ -109,6 +109,8 @@ Tabela fato que registra o cálculo de um indicador especificado pelo órgão ju
 
 ## Power BI
 
+![diagrama](assets/img/powerbi.jpeg)
+
 
 ## Roadmap
 
