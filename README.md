@@ -132,3 +132,9 @@ Tabela fato que registra o cálculo de um indicador especificado pelo órgão ju
 - [ ] Criação de portal para fácil criação de indicadores.
 - [ ] Paralelização de procedimentos (aumento de performance).
 - [ ] Criação de diferentes conectores para múltiplas fonte de dados.
+
+# Equipe
+
+* [Thiago Dias](https://www.linkedin.com/in/thiago-dias-016b84b6/)
+* [Johni Maragon](https://www.linkedin.com/in/johnidouglas/)
+* [Maicon Domingues](https://www.linkedin.com/in/maicondomingues/)
