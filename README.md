@@ -72,7 +72,7 @@ Além dos dados vindos do arquivo `mpm_serventias.csv` disponibilizado para o Ha
 - **QTD_CEDIDOS**: indicador "TPI - TOTAL DE PESSOAL QUE INGRESSOU POR CESSÃO OU REQUISIÇÃO" do "Módulo de Produtividade Mensal".
 - **QTD_COMISSIONADO**: indicador "TPSV - TOTAL DE PESSOAL COMISSIONADO SEM VÍNCULO" do "Módulo de Produtividade Mensal".
 - **QTD_EFETIVOS**: indicador "TPEFET - TOTAL DE PESSOAL DO QUADRO EFETIVO" do "Módulo de Produtividade Mensal".
-- **QTD_PROC_PENDENTESv: Quantidade de Processos Pendentes do "Módulo de Produtividade Mensal".
+- **QTD_PROC_PENDENTES**: Quantidade de Processos Pendentes do "Módulo de Produtividade Mensal".
 
 ### Tabela dClasses
 
