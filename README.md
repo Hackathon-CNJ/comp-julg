@@ -62,6 +62,8 @@ O Power BI é um serviço de análise de negócios da Microsoft, que tem o de fo
 
 ## Glossário de Dados
 
+![diagrama](assets/img/uml.jpeg)
+
 ### Tabela dServentias
 
 Tabela dimensão que possui os dados vindos do arquivo `mpm_serventias.csv` disponibilizado para o Hackathon, além de:
