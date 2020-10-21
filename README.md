@@ -66,7 +66,7 @@ O Power BI é um serviço de análise de negócios da Microsoft, que tem o de fo
 
 ### Observação importante
 
-Para fins de desenvolvimento do MVP foi escolhido apenas os dados de um tribunal (TJ/SP), para agilizar o carregamento de dados durante o trabalho de desenvolvimento e testes. Após validado o MVP, todos os dados podem ser imputados na base não relacional, para que as rotinas de ETL trate-os, atualizando o DW da solução de BI.
+Para fins de desenvolvimento do MVP foi escolhido apenas os dados de um tribunal **(TJ/SP)**, para agilizar o carregamento de dados durante o trabalho de desenvolvimento e testes. Após validado o MVP, todos os dados podem ser imputados na base não relacional, para que as rotinas de ETL trate-os, atualizando o DW da solução de BI.
 
 Além disso, por questões de inconsistência do lançamento de movimentações, os processos ajuizados antes do ano de 2001 foram ignorados, devendo ser tratados posteriormente para serem incluídos na solução.
 
