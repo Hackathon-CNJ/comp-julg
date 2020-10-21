@@ -111,3 +111,16 @@ Tabela fato que registra o cálculo de um indicador especificado pelo órgão ju
 
 
 ## Roadmap
+
+- [x] Criação estrutura de banco de dados (sql e nosql) na nuvem.
+- [x] Consumer CSV/Json para importar dados no MongoDB.
+- [x] Modelagem de tabelas e indicadores.
+- [x] Transformadores e conversores de dados.
+- [x] Importadores de dados (MongoDB -> MySQL).
+- [x] Função responsável por calcular indicadores.
+- [x] Criação do Jupyter Notebook.
+- [x] Diagramação do PowerBI.
+- [x] Modelagem do PoweBI.
+- [ ] Criação de portal para fácil criação de indicadores.
+- [ ] Paralelização de procedimentos (aumento de performance).
+- [ ] Criação de diferentes conectores para múltiplas fonte de dados.
