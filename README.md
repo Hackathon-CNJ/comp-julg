@@ -4,9 +4,9 @@
 
 descrição aqui
 
-## Técnologia
+## Tecnologia
 
-O projeto foi construido com base em técnologias de conteinerização, banco de dados NoSql, banco de dados relacionais, estatística e visualização dashboard.
+O projeto foi construido com base em técnologias de conteinerização, banco de dados NoSql, banco de dados relacionais, estatística e visualizações interativas de business intelligence.
 
 ![diagrama](assets/img/diagram.jpeg)
 
@@ -28,6 +28,10 @@ MySQL, o mais popular sistema de gerenciamento de banco de dados SQL de código 
 
 Python é uma linguagem de programação de alto nível, interpretada, de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Atualmente possui um modelo de desenvolvimento comunitário, aberto e gerenciado pela organização sem fins lucrativos Python Software Foundation.
 
+### Power BI
+
+O Power BI é um serviço de análise de negócios da Microsoft, que tem o de fornecer visualizações interativas e recursos de business intelligence com uma interface simples para que os usuários finais criem os seus próprios relatórios e dashboards, conceito conhecido como self-service BI. Apesar de ser proprietário, possui versão gratuita que permite ter conjuntos de dados de até 1GB, armazenamento de até 10GB e compartilhamento público na nuvem.
+
 ------------
 
 ## Pipeline (Segmentação de Instruções)
@@ -48,8 +52,8 @@ Python é uma linguagem de programação de alto nível, interpretada, de script
 
 5. A rotina agora faz a inserção de todas as informações no MySQL.
 
-6. Por fim os dados são consumidos pelo dashboard construido a partir do PowerBI.
+6. Por fim os dados são consumidos pelo dashboard construido a partir do Power BI.
     
-    Escolhemos o PowerBI por uma questão de maior afinidade com a ferramenta, os dados podem ser consumidos a partir de qualquer ferramenta de B.I ou dashboard desenvolvido.
+    (Escolhemos o Power BI pois ele atende os requisitos iniciais do projeto sem custo, além de ser amplamente difundido no mercado, facilitando o processo de repasse da sustentação da solução para uma outra equipe. No entanto, o modelo de dados construído na solução pode ser consumido facilmente por qualquer outra solução de BI do mercado, seja ela proprietária ou opensource.)
 
-7. Por fim o usuário pode utilziar os gráficos e indicadores disponibilizados para tomar descisões estratégicas.
+7. Por fim o usuário pode utilizar os gráficos e indicadores disponibilizados para tomar descisões estratégicas.
