@@ -59,3 +59,11 @@ O Power BI é um serviço de análise de negócios da Microsoft, que tem o de fo
     (Escolhemos o Power BI pois ele atende os requisitos iniciais do projeto sem custo, além de ser amplamente difundido no mercado, facilitando o processo de repasse da sustentação da solução para uma outra equipe. No entanto, o modelo de dados construído na solução pode ser consumido facilmente por qualquer outra solução de BI do mercado, seja ela proprietária ou opensource.)
 
 7. Por fim o usuário pode utilizar os gráficos e indicadores disponibilizados para tomar descisões estratégicas.
+
+## Glossário de Dados
+
+
+## Power BI
+
+
+## Roadmap
