@@ -62,45 +62,44 @@ O Power BI é um serviço de análise de negócios da Microsoft, que tem o de fo
 
 ## Glossário de Dados
 
-#### Tabela dServentias
+### Tabela dServentias
 
 Além dos dados vindos do arquivo `mpm_serventias.csv` disponibilizado para o Hackathon, temos: 
 
-- TIP_ENTRANCIA: cálculo do tipo de entrância. Possíveis valores: 1, 2 e 3.
-- QTD_ESTAGIARIOS: indicador "TFAUXE - TOTAL DA FORÇA DE TRABALHO AUXILIAR - ESTAGIÁRIOS" do "Módulo de Produtividade Mensal".
-- QTD_TERCERIADOS: indicador "TFAUXT - TOTAL DA FORÇA DE TRABALHO AUXILIAR - TERCEIRIZADOS" do "Módulo de Produtividade Mensal".
-- QTD_CEDIDOS: indicador "TPI - TOTAL DE PESSOAL QUE INGRESSOU POR CESSÃO OU REQUISIÇÃO" do "Módulo de Produtividade Mensal".
-- QTD_COMISSIONADO: indicador "TPSV - TOTAL DE PESSOAL COMISSIONADO SEM VÍNCULO" do "Módulo de Produtividade Mensal".
-- QTD_EFETIVOS: indicador "TPEFET - TOTAL DE PESSOAL DO QUADRO EFETIVO" do "Módulo de Produtividade Mensal".
-- QTD_PROC_PENDENTES: Quantidade de Processos Pendentes do "Módulo de Produtividade Mensal".
+- **TIP_ENTRANCIA**: cálculo do tipo de entrância. Possíveis valores: 1, 2 e 3.
+- **QTD_ESTAGIARIOS**: indicador "TFAUXE - TOTAL DA FORÇA DE TRABALHO AUXILIAR - ESTAGIÁRIOS" do "Módulo de Produtividade Mensal".
+- **QTD_TERCERIADOS**: indicador "TFAUXT - TOTAL DA FORÇA DE TRABALHO AUXILIAR - TERCEIRIZADOS" do "Módulo de Produtividade Mensal".
+- **QTD_CEDIDOS**: indicador "TPI - TOTAL DE PESSOAL QUE INGRESSOU POR CESSÃO OU REQUISIÇÃO" do "Módulo de Produtividade Mensal".
+- **QTD_COMISSIONADO**: indicador "TPSV - TOTAL DE PESSOAL COMISSIONADO SEM VÍNCULO" do "Módulo de Produtividade Mensal".
+- **QTD_EFETIVOS**: indicador "TPEFET - TOTAL DE PESSOAL DO QUADRO EFETIVO" do "Módulo de Produtividade Mensal".
+- **QTD_PROC_PENDENTESv: Quantidade de Processos Pendentes do "Módulo de Produtividade Mensal".
 
-
-#### Tabela dClasses
+### Tabela dClasses
 
 Possui a mesma estrutura do arquivo `sgt_classes.csv` disponibilizado para o hackathon mais o campo:
 
-- cod_filhos: Lista dos códigos filhos da classe. 
+- **cod_filhos**: Lista dos códigos filhos da classe. 
 
-#### Tabela dIndicadores:
+### Tabela dIndicadores:
 
 Possui as informações os indicadores usados no BI. Campos:
 
-- index: Sequencial da tabela.
-- codindicadores: Código identificador do indicador.
-- indicador: Descrição do indicador.
-- condicao_1: Lista de movimentos iniciais do processo. usados para calcular o período de dias.
-- condicao_2: Lista de movimentos finais do processo. Usados para calcular o período de dias.
-- unico_iterativo:
-- observacao: observação sobre o uso do indicador.
+- **index**: Sequencial da tabela.
+- **codindicadores**: Código identificador do indicador.
+- **indicador**: Descrição do indicador.
+- **condicao_1**: Lista de movimentos iniciais do processo. usados para calcular o período de dias.
+- **condicao_2**: Lista de movimentos finais do processo. Usados para calcular o período de dias.
+- **unico_iterativo**:
+- **observacao**: observação sobre o uso do indicador.
 
-#### Tabela fDesenpenho:
+### Tabela fDesenpenho:
 
-- index: Sequencial da tabela.
-- cdclasse: Código da classe do processo.
-- ORGAO: Código do órgão, lista completa ver arquivo npm_serventias.csv.
-- vlindicador: Quantidade de dias. Resultado do cálculo do indicador.
-- QTDADE_PROCESSOS. Quantidade de processos usados no cálculo.
-- codindicadores:
+- **index**: Sequencial da tabela.
+- **cdclasse**: Código da classe do processo.
+- **ORGAO**: Código do órgão, lista completa ver arquivo npm_serventias.csv.
+- **vlindicador**: Quantidade de dias. Resultado do cálculo do indicador.
+- **QTDADE_PROCESSOS**. Quantidade de processos usados no cálculo.
+- **codindicadores**:
 
 ## Power BI
 
