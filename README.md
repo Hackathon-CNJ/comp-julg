@@ -64,7 +64,7 @@ O Power BI é um serviço de análise de negócios da Microsoft, que tem o de fo
 
 ### Tabela dServentias
 
-Além dos dados vindos do arquivo `mpm_serventias.csv` disponibilizado para o Hackathon, temos: 
+Tabela dimensão que possui os dados vindos do arquivo `mpm_serventias.csv` disponibilizado para o Hackathon, além de:
 
 - **TIP_ENTRANCIA**: cálculo do tipo de entrância. Possíveis valores: 1, 2 e 3.
     - **Regra do cálculo para varas:** apesar de saber que são utilizados critérios mais complexos para a definição da entrância, utilizamos uma regra objetiva (fonte: https://amorimsanguenovo.jusbrasil.com.br/artigos/224767952/voce-sabe-o-que-e-entrancia) que fosse possível de implementar rapidamente, conforme se segue: 
@@ -80,11 +80,11 @@ Além dos dados vindos do arquivo `mpm_serventias.csv` disponibilizado para o Ha
 
 ### Tabela dClasses
 
-Possui a mesma estrutura do arquivo `sgt_classes.csv` disponibilizado para o hackathon.
+Tabela dimensão que possui a mesma estrutura do arquivo `sgt_classes.csv` disponibilizado para o hackathon.
 
 ### Tabela dIndicadores:
 
-Possui a descrição dos indicadores de desempenho usados no BI. Campos:
+Tabela dimensão que possui a descrição dos indicadores de desempenho usados no BI. Campos:
 
 - **index**: Sequencial da tabela.
 - **codindicadores**: Código identificador do indicador.
@@ -94,14 +94,16 @@ Possui a descrição dos indicadores de desempenho usados no BI. Campos:
 - **unico_iterativo**: Indica se o indicador é calculado apenas uma vez em um processo ou se ele é iterativo. (por exemplo, se for criado um indicador que calcula o tempo médio entre o momento que o processo é colocado para concluso e o ato do magistrado, ele pode ser iterativo, ou seja, acontece várias vezes na vida do processo)
 - **observacao**: Descrição e observação relacionados ao indicador.
 
-### Tabela fDesenpenho:
+### Tabela fDesempenho:
+
+Tabela fato que registra o cálculo de um indicador especificado pelo órgão julgador e classe dos processos envolvidos.
 
 - **index**: Sequencial da tabela.
-- **cdclasse**: Código da classe do processo.
-- **ORGAO**: Código do órgão, lista completa ver arquivo npm_serventias.csv.
-- **vlindicador**: Quantidade de dias. Resultado do cálculo do indicador.
+- **cdclasse**: Código da classe do processo que gerou o registro (*fk Dclasses*).
+- **ORGAO**: Código do órgão julgador do processo que gerou o registro (*fk Dserventias*).
+- **vlindicador**: Valor do indicador calculado, em dias.
 - **QTDADE_PROCESSOS**. Quantidade de processos usados no cálculo.
-- **codindicadores**:
+- **codindicadores**: Código identificador do indicador (*fk dIndicadores*).
 
 ## Power BI
 
