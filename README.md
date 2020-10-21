@@ -76,9 +76,7 @@ Além dos dados vindos do arquivo `mpm_serventias.csv` disponibilizado para o Ha
 
 ### Tabela dClasses
 
-Possui a mesma estrutura do arquivo `sgt_classes.csv` disponibilizado para o hackathon mais o campo:
-
-- **cod_filhos**: Lista dos códigos filhos da classe. 
+Possui a mesma estrutura do arquivo `sgt_classes.csv` disponibilizado para o hackathon.
 
 ### Tabela dIndicadores:
 
