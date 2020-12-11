@@ -2,6 +2,8 @@
 
 ## Descrição do Projeto
 
+Vídeo de apresentação: https://youtu.be/R2z4AZ11Dck
+
 Se trata de solução denominada "Comparação de desempenho de Órgãos Julgadores" que tem o objetivo de ajudar na identificação de problemas e gargalos nas Unidades Julgadoras, através da apresentação de indicadores de tempo médio de duração de atividades chave em um processo, a partir da sua distribuição para o Órgão Julgador escolhido. Além dos indicadores do órgão em foco, é apresentado também, para que seja possível a comparação, os valores dos indicadores selecionados no âmbito de todas as demais varas disponíveis, possibilitando o ajuste refinado através de filtros específicos, possibilitando que o usuário da solução identifique pontos de problema na sua unidade. A ideia é que além disso a ferramenta ajude a identificar os Órgãos Julgadores que são referência em cada etapa, possibilitando o fomento do compartilhamento de conhecimento para as demais através de apresentações, palestras, entrevistas, etc.
 
 As tecnologias utilizadas e a arquitetura desenhada, descritas adiante, tiveram como premissa a interoperabilidade e escalabilidade da solução, permitindo que ela seja facilmente instalada on-premises ou em nuvem pública, sem maiores dificuldades.
